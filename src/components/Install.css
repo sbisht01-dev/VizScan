@@ -1,0 +1,49 @@
+.install {
+  width: min(420px, calc(100vw - 32px));
+  padding: 36px 32px 28px;
+  border: 0;
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-lg);
+  text-align: center;
+  color: var(--text);
+}
+.install[open] {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 14px;
+}
+.install::backdrop {
+  background: rgba(18, 19, 22, 0.55);
+}
+.install h2 {
+  font-size: 34px;
+}
+.install__sub {
+  font-size: var(--fs-small);
+  color: var(--muted);
+  margin-top: -6px;
+}
+.install__close {
+  position: absolute;
+  top: 12px;
+  right: 14px;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  font-size: 24px;
+  line-height: 1;
+  color: var(--muted);
+}
+.install__close:hover {
+  background: var(--gray);
+  color: var(--ink);
+}
+.install__copy {
+  font-family: var(--font-mono);
+  font-size: 12px;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--orange);
+  padding: 8px;
+}
