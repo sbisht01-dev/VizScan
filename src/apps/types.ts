@@ -1,4 +1,4 @@
-export type IconName = 'alert' | 'clock' | 'file' | 'type' | 'shield' | 'check' | 'camera' | 'tag' | 'mic' | 'chart' | 'download';
+export type IconName = 'alert' | 'clock' | 'file' | 'type' | 'shield' | 'check' | 'camera' | 'tag' | 'mic' | 'chart' | 'download' | 'flame';
 export type Status = 'ok' | 'warn' | 'bad';
 
 export type RoleVisual =

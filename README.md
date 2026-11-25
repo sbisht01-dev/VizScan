@@ -53,4 +53,11 @@ Left out: pain points and outcome stats. The icon is a placeholder lightning bol
 `icon.png` / `favicon.png` over it. Still to confirm for EMS: the product name to show publicly, the contact address for demo
 requests (it uses the shared `CONTACT_EMAIL`), and that Administrator, Manager and Operator are the roles every customer starts with.
 
+**RMS** (`src/apps/refractory.ts`, Refractory Monitoring System) is a web product sold by demo. Its content follows the structure and
+topics of the reference article on real-time refractory monitoring with computer vision, rewritten in our own words: why linings
+fail, how computer vision monitors them, applications (ladle, kiln, blast furnace, EAF), benefits, and an FAQ built from the
+article's background sections. The industry figures ($2–10M per severe breakout, 10–12% wall heat loss) are industry-wide, not our
+results. The reference's case study is left out because it's another company's client result. Still to confirm: the product name, the hero and
+tab figures (illustrative, labelled "Example dashboard"), the setup steps, and the icon (placeholder flame in `public/apps/refractory/`).
+
 **Analytics:** every button pushes `{ event, … }` to `window.dataLayer`, ready for Google Tag Manager or GA4.

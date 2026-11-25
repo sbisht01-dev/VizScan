@@ -4,9 +4,10 @@ import { restrix } from './restrix';
 import { datavue } from './datavue';
 import { safeeye } from './safeeye';
 import { ems } from './ems';
+import { refractory } from './refractory';
 
 /** Add new apps here; the first is the default. The switcher lists them in this order. */
-export const APPS: AppConfig[] = [vizscan, restrix, datavue, safeeye, ems];
+export const APPS: AppConfig[] = [vizscan, restrix, datavue, safeeye, ems, refractory];
 
 const KEY = 'landing-app';
 
